@@ -1,0 +1,28 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-card {
+  text-align: center;
+  width: 200px; /* Set the width of each image card */
+  padding: 15px;
+}
+
+img {
+  width: 100%; /* Make sure the image takes up the full width of the card */
+  height: 100%; /* Maintain aspect ratio */
+  max-height: 200px; /* Set the maximum height of each image */
+}
+
+p {
+  margin: top 1px;;
+}
